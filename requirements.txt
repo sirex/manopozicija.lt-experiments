@@ -4,9 +4,15 @@
 #
 #    pip-compile --no-index --output-file requirements.txt requirements.in
 #
-certifi==2018.10.15       # via requests
-chardet==3.0.4            # via requests
-idna==2.7                 # via requests
+certifi==2022.12.7
+    # via requests
+chardet==3.0.4
+    # via requests
+idna==2.7
+    # via requests
 lxml==4.2.5
+    # via -r requirements.in
 requests==2.20.0
-urllib3==1.24             # via requests
+    # via -r requirements.in
+urllib3==1.24
+    # via requests
